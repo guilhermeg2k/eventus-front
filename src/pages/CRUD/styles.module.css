@@ -1,0 +1,50 @@
+.createEventContainer{
+  width: 100%;
+  background-color: var(--white);
+}
+
+.createEvent h1{
+  margin: 10px 0;
+}
+
+.createEvent i{
+  cursor: pointer;
+}
+
+.createEvent{
+  display: flex;
+  flex-direction: column;
+  max-width: 1250px;
+  padding: 20px;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+.createEvent label{
+  margin: 5px 0;
+}
+
+.createEvent button{
+  appearance: none;
+  margin: 5px 0;
+  padding: 10px;
+  background-color: var(--green);
+  text-transform: uppercase;
+  color: white;
+  border-radius: 5px;
+}
+
+.eventList{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.eventList div{
+  margin-top: 5px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}

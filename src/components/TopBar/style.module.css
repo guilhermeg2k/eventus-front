@@ -1,0 +1,78 @@
+.topBarContainer{
+  position: fixed;
+  width: 100%;
+  background-color: var(--dark-1);
+  z-index: 1;
+}
+
+.blueLine{
+  height: 7px;
+  background-color: var(--blue);
+}
+
+.topBar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1250px;
+  padding: 0 10px;
+  margin: auto;
+}
+
+.topBar > div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0;
+}
+
+.topBar h1{
+  color: var(--white);
+  text-transform: uppercase;
+  margin-right: 28px;
+  font-size: 25px;
+}
+
+.socialLinks i{
+  color: var(--white);
+  font-size: 24px;
+  margin: 0 4px;
+}
+
+.socialLinks i:hover{
+  color: var(--blue);
+  cursor: pointer;
+}
+
+.searchBox{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--dark-3);
+  border: 1px solid var(--dark-2);
+  border-radius: 4px;
+  width: 360px;
+}
+
+.searchBox i{
+  color: var(--white);
+  font-size: 12px;
+  margin: 0 20px;
+}
+
+.searchBox input{
+  background-color: var(--dark-3);
+  color: var(--white);
+  border: none;
+  padding: 5px 0;
+}
+
+.searchBox input:focus{
+  outline-width: 0;
+}
+
+@media (max-width: 1080px) {
+	.searchBox{
+    display: none;
+  }
+}

@@ -1,0 +1,45 @@
+
+:root {
+	--white: #fff;
+	--background: #fff;
+  --dark-1: #2F2F2F;
+  --dark-2: #1D1B1B;
+  --dark-3: #292929;
+	--gray-line: #dcdde0;
+	--text: #343333;
+  --blue: #2B72C5;
+	--red: #e83f5b;
+	--green: #198754;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: var(--dark-2);
+	color: var(--text);
+}
+
+body,
+input,
+textarea,
+button {
+	font: 400 1rem "roboto", sans-serif;
+}
+
+button {
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+main{
+  position: relative;
+  top: 45px;
+}

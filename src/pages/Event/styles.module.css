@@ -1,0 +1,26 @@
+.eventContainer{
+  width: 100%;
+  background-color: var(--white);
+}
+.event{
+  display: flex;
+  flex-direction: column;
+  max-width: 1250px;
+  padding: 20px;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+.event > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.eventImage{
+  max-width: 700px;
+  margin: 20px 0;
+}
+.eventImage img {
+  width: 100%;
+}
